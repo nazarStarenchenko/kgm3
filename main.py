@@ -43,7 +43,6 @@ def main():
 	plt.figure()
 	plt.plot(L[:,0],L[:,1], 'b-', picker=5)
 	plt.plot([L[-1,0],L[0,0]],[L[-1,1],L[0,1]], 'b-', picker=5)
-	plt.plot(P[:,0],P[:,1],".r")
 	plt.savefig('plot.png', dpi=70, bbox_inches='tight')
 	plt.show()
 
